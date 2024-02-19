@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kaac
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0003-tenant/tkrw-pr712-0075-0003-app/devfile-sample-kaac@sha256:44d4d1e8782a2ccc4bc9264471cfb1df1dacef50182b6a4cff4093416a79e1bf
         name: my-nodejs
         ports:
         - containerPort: 3001
